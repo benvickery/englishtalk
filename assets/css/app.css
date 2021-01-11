@@ -141,8 +141,16 @@
     background: #ff9a66;
 }
 
+.struct-header {
+    text-align: center;
+}
+
+.header-img {
+    padding-bottom: 1.5%;
+}
+
 .proof{
-    background: #75e93c;
+    background: #008745;
 }
 @media print, screen and (max-width: 46.24875em) {
     .home {
@@ -7353,7 +7361,7 @@ a.thumbnail image {
     left: 0;
     width: 100%;
     overflow-x: auto;
-    height: 195px;
+    /* height: 195px; */
     -webkit-transform: translateY(-195px);
     -ms-transform: translateY(-195px);
     transform: translateY(-195px);
